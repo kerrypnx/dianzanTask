@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1177,628</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1234,827</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>GetTaskByHTTP_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="22">
@@ -85,7 +85,7 @@
         <OutArgument x:TypeArguments="x:String">[pattern]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">["\&gt;(https:.+zhihu.+)\&lt;\/te"]</InArgument>
+        <InArgument x:TypeArguments="x:String">["&gt;(https:.+zhihu.+)[\s\S]*&lt;\/textarea"]</InArgument>
       </Assign.Value>
     </Assign>
     <ui:HttpClient Body="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseHeaders="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="ANY" BodyFormat="application/xml" ClientCertificate="[Nothing]" ClientCertificatePassword="[Nothing]" DisplayName="HTTP Request" EndPoint="[url]" sap:VirtualizedContainerService.HintSize="263,22" sap2010:WorkflowViewState.IdRef="HttpClient_1" Method="GET" Result="[res]" TimeoutMS="6000">
